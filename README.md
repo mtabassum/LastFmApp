@@ -2,8 +2,7 @@
 
 A web application built with ASP.NET Core 9.0 and Blazor Server that integrates with the Last.fm API to import and display music data.
 
-
-Technologies Used
+## Technologies Used
 
 
 Backend: ASP.NET Core 9.0
@@ -30,7 +29,7 @@ cd LastFmApp
 ```
    
 
-1. Get Last.fm API Credentials
+3. Get Last.fm API Credentials
    
 
    Create a Last.fm account at https://www.last.fm
@@ -43,6 +42,7 @@ cd LastFmApp
    The repository includes an appsettings.json.example file as a template. Rename it to appsettings.json.
    Then edit appsettings.json with your actual values:
 
+```json
    {
    "ConnectionStrings": {
    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=LastFmApp;Trusted\_Connection=True;TrustServerCertificate=True"
@@ -53,7 +53,7 @@ cd LastFmApp
    }
    }
 
-   Important:
+## Important:
 
    -Replace <your\_actual\_api\_key\_here> with your actual Last.fm API key
    -Replace <your\_actual\_api\_secret\_here> with your actual API secret
