@@ -4,12 +4,10 @@ A web application built with ASP.NET Core 9.0 and Blazor Server that integrates 
 
 ## Technologies Used
 
-
 Backend: ASP.NET Core 9.0
 Frontend: Blazor Server
 Database: SQL Server (Entity Framework Core)
 API: Last.fm Web API
-
 
 
 ## Installation
@@ -52,6 +50,7 @@ cd LastFmApp
    "ApiSecret": "your\_actual\_api\_secret\_here"
    }
    }
+```
 
 ## Important:
 
