@@ -25,9 +25,8 @@
             {
                 <div class="alert alert-info" role="alert">
                     <h4 class="alert-heading">No Data Yet!</h4>
-                    <p>Your library is empty. Start by importing some artists from Last.fm.</p>
+                    <p>Your library is empty.</p>
                     <hr>
-                    <a href="/import" class="btn btn-primary">Import Artists</a>
                 </div>
             }
             else
@@ -36,20 +35,12 @@
                     <table class="table table-hover">
                         <thead class="table-dark">
                             <tr>
-                                <th @onclick="@(() => SortBy("artist"))" class="sortable">
+                                <th>
                                     Artist
-                                    @if (sortField == "artist")
-                                    {
-                                        <i class="bi bi-@(sortAscending ? "sort-down" : "sort-up")"></i>
-                                    }
                                 </th>
                                 <th>Tags</th>
-                                <th @onclick="@(() => SortBy("album"))" class="sortable">
+                                <th>
                                     Album
-                                    @if (sortField == "album")
-                                    {
-                                        <i class="bi bi-@(sortAscending ? "sort-down" : "sort-up")"></i>
-                                    }
                                 </th>
                                 <th>Album Image</th>
                             </tr>
@@ -134,15 +125,6 @@
         border-radius: 4px;
         color: #6c757d;
     }
-
-    .sortable {
-        cursor: pointer;
-        user-select: none;
-    }
-
-        .sortable:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-        }
 
     .jumbotron {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);

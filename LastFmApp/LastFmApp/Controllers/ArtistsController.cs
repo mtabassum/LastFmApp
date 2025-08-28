@@ -42,8 +42,8 @@ namespace LastFmApp.Controllers
             return Ok(artists);
         }
 
-        // GET: api/artists/with-albums
-        [HttpGet("with-albums")]
+        // GET: api/artists/complete
+        [HttpGet("complete")]
         public async Task<ActionResult<IEnumerable<ArtistDetailDto>>> GetAllArtistsWithAlbums()
         {
             var artists = await _context.Artists
