@@ -51,13 +51,12 @@ cd LastFmApp
    }
    }
 ```
-
-## Important:
-
-   -Replace <your\_actual\_api\_key\_here> with your actual Last.fm API key
-   -Replace <your\_actual\_api\_secret\_here> with your actual API secret
-   -Update the Server in ConnectionStrings if not using LocalDB
    
+## Important
+
+- Replace <your\_actual\_api\_key\_here> with your actual Last.fm API key
+- Replace <your\_actual\_api\_secret\_here> with your actual API secret
+- Update the Server in ConnectionStrings if not using LocalDB
 
 5. Set up the database
 
