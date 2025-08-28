@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastFmApp.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastFmApp.Domain", "LastFmApp.Domain\LastFmApp.Domain.csproj", "{1BAFE28E-13FE-4172-85F1-EFA8A3F9E9B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastFmApp", "LastFmApp\LastFmApp.csproj", "{54DB6066-31DF-B835-5347-BA781E05F6B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastFmWebApp", "LastFmApp.Web\LastFmWebApp.csproj", "{F1F35198-B627-1637-7E5D-7181E4F34947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{1BAFE28E-13FE-4172-85F1-EFA8A3F9E9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BAFE28E-13FE-4172-85F1-EFA8A3F9E9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BAFE28E-13FE-4172-85F1-EFA8A3F9E9B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54DB6066-31DF-B835-5347-BA781E05F6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54DB6066-31DF-B835-5347-BA781E05F6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54DB6066-31DF-B835-5347-BA781E05F6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54DB6066-31DF-B835-5347-BA781E05F6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F35198-B627-1637-7E5D-7181E4F34947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F35198-B627-1637-7E5D-7181E4F34947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F35198-B627-1637-7E5D-7181E4F34947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F35198-B627-1637-7E5D-7181E4F34947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

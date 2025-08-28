@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using LastFmApp.Domain;
 using LastFmApp.Infrastructure;
 
-namespace LastFmApp.Controllers
+namespace LastFmWebApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

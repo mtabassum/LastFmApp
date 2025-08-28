@@ -1,4 +1,4 @@
-using LastFmApp.Components;
+using LastFmWebApp.Components;
 using LastFmApp.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
