@@ -19,7 +19,7 @@ API: Last.fm Web API
 git clone https://github.com/mtabassum/LastFmApp.git
 ```
    
-2. Navigate to the project directory:
+2. Navigate to the project folder:
 
 
 ```bash
@@ -62,7 +62,7 @@ cd LastFmApp
 
    Navigate to the web project directory
 
-   cd LastFmApp.Web
+   cd LastFmApp/LastFmApp.Web
 
    Run migrations
 
