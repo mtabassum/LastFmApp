@@ -5,7 +5,6 @@ A web application built with ASP.NET Core 9.0 and Blazor Server that integrates 
 
 Technologies Used
 
----
 
 Backend: ASP.NET Core 9.0
 Frontend: Blazor Server
@@ -14,19 +13,21 @@ API: Last.fm Web API
 
 
 
-Installation
+## Installation
 
----
 
 1. Clone the repository
 
-   git clone https://github.com/mtabassum/LastFmApp.git
+```bash
+git clone https://github.com/mtabassum/LastFmApp.git
+```
    
 2. Navigate to the project directory:
 
 
-   cd LastFmApp
-
+```bash
+cd LastFmApp
+```
    
 
 1. Get Last.fm API Credentials
@@ -54,18 +55,18 @@ Installation
 
    Important:
 
-   Replace <your\_actual\_api\_key\_here> with your actual Last.fm API key
-   Replace <your\_actual\_api\_secret\_here> with your actual API secret
-   Update the Server in ConnectionStrings if not using LocalDB
+   -Replace <your\_actual\_api\_key\_here> with your actual Last.fm API key
+   -Replace <your\_actual\_api\_secret\_here> with your actual API secret
+   -Update the Server in ConnectionStrings if not using LocalDB
    
 
 5. Set up the database
 
-   # Navigate to the web project directory
+   Navigate to the web project directory
 
    cd LastFmApp.Web
 
-   # Run migrations
+   Run migrations
 
    dotnet ef database update
 
